@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.lv7s.myapplication.databinding.FragmentInicioBinding
 
 class Inicio : Fragment() {
@@ -22,7 +23,11 @@ class Inicio : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         _binding = FragmentInicioBinding.inflate(inflater, container, false)
+        binding.toBuffer.setOnClickListener {
+            findNavController().navigate(R.id.action_inicio_to_buffer)
+        }
         return binding.root
+
     }
 
     override fun onDestroyView() {
