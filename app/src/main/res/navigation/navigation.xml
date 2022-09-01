@@ -22,5 +22,13 @@
         <action
             android:id="@+id/action_buffer_to_inicio"
             app:destination="@id/inicio" />
+        <action
+            android:id="@+id/action_buffer_to_bufftris"
+            app:destination="@id/bufftris" />
     </fragment>
+    <fragment
+        android:id="@+id/bufftris"
+        android:name="com.lv7s.myapplication.bufftris"
+        android:label="fragment_bufftris"
+        tools:layout="@layout/fragment_bufftris" />
 </navigation>
