@@ -20,15 +20,20 @@
         android:label="fragment_buffer"
         tools:layout="@layout/fragment_buffer" >
         <action
-            android:id="@+id/action_buffer_to_inicio"
-            app:destination="@id/inicio" />
-        <action
             android:id="@+id/action_buffer_to_bufftris"
             app:destination="@id/bufftris" />
+        <action
+            android:id="@+id/action_buffer_to_buffhepes"
+            app:destination="@id/buffhepes" />
     </fragment>
     <fragment
         android:id="@+id/bufftris"
         android:name="com.lv7s.myapplication.bufftris"
         android:label="fragment_bufftris"
         tools:layout="@layout/fragment_bufftris" />
+    <fragment
+        android:id="@+id/buffhepes"
+        android:name="com.lv7s.myapplication.buffhepes"
+        android:label="fragment_buffhepes"
+        tools:layout="@layout/fragment_buffhepes" />
 </navigation>

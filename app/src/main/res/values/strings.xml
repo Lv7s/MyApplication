@@ -27,6 +27,7 @@
     <string name="rptaGlic">Respuesta</string>
     <string name="rptaImdzl">Respuesta</string>
     <string name="btntoBufferTRIS">Buffer TRIS</string>
+    <string name="btntoBufferHEPES">Buffer HEPES</string>
 
 
 </resources>
