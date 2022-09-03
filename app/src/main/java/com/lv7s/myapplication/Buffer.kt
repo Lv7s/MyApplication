@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.lv7s.myapplication.databinding.FragmentBufferBinding
 
 
@@ -22,6 +23,8 @@ class Buffer : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         _binding = FragmentBufferBinding.inflate(inflater, container, false)
+        binding.btntoBufferTRIS.setOnClickListener {
+            findNavController().navigate(R.id.action_buffer_to_bufftris)}
         return binding.root
     }
 

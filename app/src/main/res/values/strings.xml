@@ -9,7 +9,7 @@
     <string name="valConcTris">0.05</string>
     <string name="idConcNaCl">Concentracion de NaCl2 en M</string>
     <string name="valConcNacl">0.3</string>
-    <string name="idConcMgCl">Concentracion de NaCl2 en M</string>
+    <string name="idConcMgCl">Concentracion de MgCl2 en M</string>
     <string name="valConcMgCl">0.005</string>
     <string name="idVolGlic">Volumen de glicerol en mL</string>
     <string name="valVolGlic">50</string>
@@ -24,6 +24,7 @@
     <string name="rptaNaCl">Respuesta</string>
     <string name="rptaMgCl">Respuesta</string>
     <string name="rptaGlic">Respuesta</string>
+    <string name="btntoBufferTRIS">Buffer TRIS</string>
 
 
 </resources>
