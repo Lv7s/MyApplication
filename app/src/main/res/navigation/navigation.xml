@@ -36,4 +36,9 @@
         android:name="com.lv7s.myapplication.buffhepes"
         android:label="fragment_buffhepes"
         tools:layout="@layout/fragment_buffhepes" />
+    <fragment
+        android:id="@+id/gelsdspage"
+        android:name="com.lv7s.myapplication.gelsdspage"
+        android:label="fragment_gelsdspage"
+        tools:layout="@layout/fragment_gelsdspage" />
 </navigation>
