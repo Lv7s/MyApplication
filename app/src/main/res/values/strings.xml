@@ -3,6 +3,15 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="toBuffer">Buffer automatico</string>
-    <string name="idVolReq">Volumen en L de buffer a preparar</string>
+    <string name="idVolReq">Volumen en L de buffer TRIS</string>
     <string name="valVolReq">1</string>
+    <string name="idConcTris">Concentracion de TRIS en M</string>
+    <string name="valConcTris">0.05</string>
+    <string name="idConcNaCl">Concentracion de NaCl2 en M</string>
+    <string name="valConcNacl">0.3</string>
+    <string name="idConcMgCl">Concentracion de NaCl2 en M</string>
+    <string name="valConcMgCl">0.005</string>
+    <string name="idVolGlic">Volume de glicerol en mL</string>
+    <string name="valVolGlic">50</string>
+
 </resources>
