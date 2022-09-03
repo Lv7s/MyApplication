@@ -7,6 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.lv7s.myapplication.databinding.FragmentBufftrisBinding
+import java.math.RoundingMode
+import kotlin.math.roundToInt
 
 class bufftris : Fragment() {
     var numVolReq : Float? = null
@@ -83,11 +85,11 @@ class bufftris : Fragment() {
             }else {
                 numConcImidzl = binding.valConcImidzl.text.toString().toFloat()
             }
-            val resultadoConcTris =  (numConcTris!!*numVolReq!!).times(TRIS).toString()
-            val resultadoConcNaCl = numConcNaCl!!.times(numVolReq!!*NaCl).toString()
-            val resultadoConcMgCl = numConcMgCl2!!.times(numVolReq!!*MgCl2Hexahidro).toString()
-            val resultadoVolGlic = numVolGlic!!.times(Glicerol).toString()
-            val resultadoConcImdzl = numConcImidzl!!.times(numVolReq!!*Imidazol).toString()
+            val resultadoConcTris =  (numConcTris!!*numVolReq!!).times(TRIS).toBigDecimal().setScale(2, RoundingMode.UP).toString()
+            val resultadoConcNaCl = numConcNaCl!!.times(numVolReq!!*NaCl).toBigDecimal().setScale(2, RoundingMode.UP).toString()
+            val resultadoConcMgCl = numConcMgCl2!!.times(numVolReq!!*MgCl2Hexahidro).toBigDecimal().setScale(2, RoundingMode.UP).toString()
+            val resultadoVolGlic = numVolGlic!!.times(Glicerol).toBigDecimal().setScale(2, RoundingMode.UP).toString()
+            val resultadoConcImdzl = numConcImidzl!!.times(numVolReq!!*Imidazol).toBigDecimal().setScale(2, RoundingMode.UP).toString()
 
             respuestaConcTRIS.setText(resultadoConcTris)
             respuestaConcNaCl.setText(resultadoConcNaCl)
