@@ -13,5 +13,6 @@
     <string name="valConcMgCl">0.005</string>
     <string name="idVolGlic">Volume de glicerol en mL</string>
     <string name="valVolGlic">50</string>
+    <string name="btnCalcular">CALCULAR</string>
 
 </resources>
