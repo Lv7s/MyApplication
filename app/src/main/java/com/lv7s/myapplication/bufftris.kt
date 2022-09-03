@@ -21,6 +21,7 @@ class bufftris : Fragment() {
     val MgCl2Anhidro = 95.21
     val MgCl2Hexahidro = 203.31
     val Glicerol = 1.26
+    val Imidazol = 68.077
     private var _binding : FragmentBufftrisBinding? = null
     private val binding get() = _binding!!
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -47,37 +48,43 @@ class bufftris : Fragment() {
                 binding.valConcTris.requestFocus()
                 return@setOnClickListener
             }else {
-                numVolReq = binding.valConcTris.text.toString().toFloat()
+                numConcTris = binding.valConcTris.text.toString().toFloat()
             }
             if  (TextUtils.isEmpty(binding.valConcNaCl.text.toString())){
                 binding.valConcNaCl.error = "Ingresa un numero"
                 binding.valConcNaCl.requestFocus()
                 return@setOnClickListener
             }else {
-                numVolReq = binding.valConcNaCl.text.toString().toFloat()
+                numConcNaCl = binding.valConcNaCl.text.toString().toFloat()
             }
             if  (TextUtils.isEmpty(binding.valConcMgCl.text.toString())){
                 binding.valConcMgCl.error = "Ingresa un numero"
                 binding.valConcMgCl.requestFocus()
                 return@setOnClickListener
             }else {
-                numVolReq = binding.valConcMgCl.text.toString().toFloat()
+                numConcMgCl2 = binding.valConcMgCl.text.toString().toFloat()
             }
             if  (TextUtils.isEmpty(binding.valVolGlic.text.toString())){
                 binding.valVolGlic.error = "Ingresa un numero"
                 binding.valVolGlic.requestFocus()
                 return@setOnClickListener
             }else {
-                numVolReq = binding.valVolGlic.text.toString().toFloat()
+                numVolGlic = binding.valVolGlic.text.toString().toFloat()
             }
             if  (TextUtils.isEmpty(binding.valConcImidzl.text.toString())){
                 binding.valConcImidzl.error = "Ingresa un numero"
                 binding.valConcImidzl.requestFocus()
                 return@setOnClickListener
             }else {
-                numVolReq = binding.valConcImidzl.text.toString().toFloat()
+                numConcImidzl = binding.valConcImidzl.text.toString().toFloat()
             }
-            binding.rptaTRIS = numConcTris!!.times(numVolReq!!).times(TRIS).toString()
+            val resultadoConcTris =  numConcTris!!.times(numVolReq!!).times(TRIS).toString()
+            val resultadoConcNaCl = numConcNaCl!!.times(numVolReq!!).times(NaCl).toString()
+            val resultadoMgCl = numConcMgCl2!!.times(numVolReq!!).times(MgCl2Hexahidro).toString()
+            val resultadoGlic = numVolGlic!!.times(Glicerol).toString()
+            val resultadoImdzl = numConcImidzl!!.times(numVolReq!!).times(Imidazol).toString()
+
+            binding.rptaTRIS.setText(resultadoConcTris)
         }
 
         binding.btnCalcular.setOnClickListener {
