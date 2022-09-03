@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".gelsdspage">
+    tools:context=".gelsdspagestack">
 
     <!-- TODO: Update blank fragment layout -->
 
     <TextView
-        android:id="@+id/idagua2"
+        android:id="@+id/idagua22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/idagua2"
+        android:text="@string/idagua22"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,10 +22,10 @@
         app:layout_constraintVertical_bias="0.218" />
 
     <TextView
-        android:id="@+id/idsds"
+        android:id="@+id/idsds2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/idsds"
+        android:text="@string/idsds2"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,10 +35,10 @@
         app:layout_constraintVertical_bias="0.549" />
 
     <TextView
-        android:id="@+id/idpersa"
+        android:id="@+id/idpersa2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/idpersa"
+        android:text="@string/idpersa2"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,10 +48,10 @@
         app:layout_constraintVertical_bias="0.737" />
 
     <TextView
-        android:id="@+id/idtris882M"
+        android:id="@+id/idtris882M2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/idtris882M"
+        android:text="@string/idtris882M2"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,10 +61,10 @@
         app:layout_constraintVertical_bias="0.448" />
 
     <TextView
-        android:id="@+id/idtemed"
+        android:id="@+id/idtemed2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/idtemed"
+        android:text="@string/idtemed2"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,10 +74,10 @@
         app:layout_constraintVertical_bias="0.639" />
 
     <TextView
-        android:id="@+id/idagua"
+        android:id="@+id/idaguas2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/idagua"
+        android:text="@string/idaguas2"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -87,10 +87,10 @@
         app:layout_constraintVertical_bias="0.086" />
 
     <TextView
-        android:id="@+id/idacrilamida"
+        android:id="@+id/idacrilamida2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/idacrilamida"
+        android:text="@string/idacrilamida2"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -100,10 +100,10 @@
         app:layout_constraintVertical_bias="0.333" />
 
     <TextView
-        android:id="@+id/idtituloresolucion"
+        android:id="@+id/idtituloresolucion2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/idtituloresolucion"
+        android:text="@string/idtituloresolucion2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -113,22 +113,22 @@
         android:textSize="20sp"/>
 
     <CheckBox
-        android:id="@+id/checkagua"
+        android:id="@+id/checkagua12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/checkagua22"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.073"
-        android:text="@string/checkagua"/>
+        app:layout_constraintVertical_bias="0.073" />
 
     <CheckBox
-        android:id="@+id/checkagua12"
+        android:id="@+id/checkaguas2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/checkagua2"
+        android:text="@string/checkaguas2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
@@ -137,10 +137,10 @@
         app:layout_constraintVertical_bias="0.212" />
 
     <CheckBox
-        android:id="@+id/checkacrilamida"
+        android:id="@+id/checkacrilamida2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/checkacrilamida"
+        android:text="@string/checkacrilamida2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.709"
@@ -149,10 +149,10 @@
         app:layout_constraintVertical_bias="0.329" />
 
     <CheckBox
-        android:id="@+id/checkpersa"
+        android:id="@+id/checkpersa2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/checkpersa"
+        android:text="@string/checkpersa2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.687"
@@ -161,10 +161,10 @@
         app:layout_constraintVertical_bias="0.742" />
 
     <CheckBox
-        android:id="@+id/checktemed"
+        android:id="@+id/checktemed2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/checktemed"
+        android:text="@string/checktemed2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.637"
@@ -173,10 +173,10 @@
         app:layout_constraintVertical_bias="0.647" />
 
     <CheckBox
-        android:id="@+id/checktris"
+        android:id="@+id/checktris2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/checktris"
+        android:text="@string/checktris2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.807"
@@ -185,27 +185,15 @@
         app:layout_constraintVertical_bias="0.449" />
 
     <CheckBox
-        android:id="@+id/checksds"
+        android:id="@+id/checksds2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/checksds"
+        android:text="@string/checksds2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.637"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.553" />
-
-    <Button
-        android:id="@+id/tosdsstacking"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tosdsstacking"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

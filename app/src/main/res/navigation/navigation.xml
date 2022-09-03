@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_inicio_to_buffer"
             app:destination="@id/buffer" />
+        <action
+            android:id="@+id/action_inicio_to_gelsdspage"
+            app:destination="@id/gelsdspage" />
     </fragment>
     <fragment
         android:id="@+id/buffer"
@@ -40,5 +43,14 @@
         android:id="@+id/gelsdspage"
         android:name="com.lv7s.myapplication.gelsdspage"
         android:label="fragment_gelsdspage"
-        tools:layout="@layout/fragment_gelsdspage" />
+        tools:layout="@layout/fragment_gelsdspage" >
+        <action
+            android:id="@+id/action_gelsdspage_to_gelsdspagestack"
+            app:destination="@id/gelsdspagestack" />
+    </fragment>
+    <fragment
+        android:id="@+id/gelsdspagestack"
+        android:name="com.lv7s.myapplication.gelsdspagestack"
+        android:label="fragment_gelsdspagestack"
+        tools:layout="@layout/fragment_gelsdspagestack" />
 </navigation>
