@@ -13,17 +13,19 @@
     <string name="valConcMgCl">0.005</string>
     <string name="idVolGlic">Volumen de glicerol en mL</string>
     <string name="valVolGlic">50</string>
-    <string name="idConcImidzl">Concentracion de Imidazol en M</string>
+    <string name="idConcImidzl">Concentracion de Imidzl en M</string>
     <string name="valConcImidzl">0.5</string>
     <string name="btnCalcular">CALCULAR</string>
     <string name="resPesoTRIS">Gramos a pesar de TRIS</string>
     <string name="resPesoNaCl">Gramos a pesar de NaCl2</string>
     <string name="resPesoMgCl">Gramos a pesar de MgCl2</string>
     <string name="resPesoGlic">Gramos a pesar de Glicerol</string>
+    <string name="resPesoImdzl">Gramos a pesar de Imidazol</string>
     <string name="rptaTRIS">Respuesta</string>
     <string name="rptaNaCl">Respuesta</string>
     <string name="rptaMgCl">Respuesta</string>
     <string name="rptaGlic">Respuesta</string>
+    <string name="rptaImdzl">Respuesta</string>
     <string name="btntoBufferTRIS">Buffer TRIS</string>
 
 

@@ -35,6 +35,11 @@ class bufftris : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         _binding = FragmentBufftrisBinding.inflate(inflater, container, false)
+        var respuestaConcTRIS = binding.rptaTRIS
+        var respuestaConcNaCl =binding.rptaNaCl
+        var respuestaConcMgCl2 = binding.rptaMgCl
+        var respuestaVolGlic = binding.rptaGlic
+        var respuestaConcImdzl = binding.rptaImdzl
         binding.btnCalcular.setOnClickListener {
             if  (TextUtils.isEmpty(binding.valVolReq.text.toString())){
                 binding.valVolReq.error = "Ingresa un numero"
@@ -80,16 +85,15 @@ class bufftris : Fragment() {
             }
             val resultadoConcTris =  numConcTris!!.times(numVolReq!!).times(TRIS).toString()
             val resultadoConcNaCl = numConcNaCl!!.times(numVolReq!!).times(NaCl).toString()
-            val resultadoMgCl = numConcMgCl2!!.times(numVolReq!!).times(MgCl2Hexahidro).toString()
-            val resultadoGlic = numVolGlic!!.times(Glicerol).toString()
-            val resultadoImdzl = numConcImidzl!!.times(numVolReq!!).times(Imidazol).toString()
+            val resultadoConcMgCl = numConcMgCl2!!.times(numVolReq!!).times(MgCl2Hexahidro).toString()
+            val resultadoVolGlic = numVolGlic!!.times(Glicerol).toString()
+            val resultadoConcImdzl = numConcImidzl!!.times(numVolReq!!).times(Imidazol).toString()
 
-            binding.rptaTRIS.setText(resultadoConcTris)
-        }
-
-        binding.btnCalcular.setOnClickListener {
-
-
+            respuestaConcTRIS.setText(resultadoConcTris)
+            respuestaConcNaCl.setText(resultadoConcNaCl)
+            respuestaConcMgCl2.setText(resultadoConcMgCl)
+            respuestaVolGlic.setText(resultadoVolGlic)
+            respuestaConcImdzl.setText(resultadoConcImdzl)
         }
         return binding.root
     }
