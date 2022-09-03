@@ -83,11 +83,11 @@ class bufftris : Fragment() {
             }else {
                 numConcImidzl = binding.valConcImidzl.text.toString().toFloat()
             }
-            val resultadoConcTris =  numConcTris!!.times(numVolReq!!).times(TRIS).toString()
-            val resultadoConcNaCl = numConcNaCl!!.times(numVolReq!!).times(NaCl).toString()
-            val resultadoConcMgCl = numConcMgCl2!!.times(numVolReq!!).times(MgCl2Hexahidro).toString()
+            val resultadoConcTris =  (numConcTris!!*numVolReq!!).times(TRIS).toString()
+            val resultadoConcNaCl = numConcNaCl!!.times(numVolReq!!*NaCl).toString()
+            val resultadoConcMgCl = numConcMgCl2!!.times(numVolReq!!*MgCl2Hexahidro).toString()
             val resultadoVolGlic = numVolGlic!!.times(Glicerol).toString()
-            val resultadoConcImdzl = numConcImidzl!!.times(numVolReq!!).times(Imidazol).toString()
+            val resultadoConcImdzl = numConcImidzl!!.times(numVolReq!!*Imidazol).toString()
 
             respuestaConcTRIS.setText(resultadoConcTris)
             respuestaConcNaCl.setText(resultadoConcNaCl)
