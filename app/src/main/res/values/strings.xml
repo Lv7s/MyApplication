@@ -4,4 +4,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="toBuffer">Buffer automatico</string>
     <string name="idVolReq">Volumen en L de buffer a preparar</string>
+    <string name="valVolReq">1</string>
 </resources>
