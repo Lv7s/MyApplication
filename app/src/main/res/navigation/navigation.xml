@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_inicio_to_gelsdspage"
             app:destination="@id/gelsdspage" />
+        <action
+            android:id="@+id/action_inicio_to_inducidonoinducido"
+            app:destination="@id/inducidonoinducido" />
     </fragment>
     <fragment
         android:id="@+id/buffer"
@@ -53,4 +56,9 @@
         android:name="com.lv7s.myapplication.gelsdspagestack"
         android:label="fragment_gelsdspagestack"
         tools:layout="@layout/fragment_gelsdspagestack" />
+    <fragment
+        android:id="@+id/inducidonoinducido"
+        android:name="com.lv7s.myapplication.inducidonoinducido"
+        android:label="fragment_inducidonoinducido"
+        tools:layout="@layout/fragment_inducidonoinducido" />
 </navigation>

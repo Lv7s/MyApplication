@@ -29,6 +29,9 @@ class Inicio : Fragment() {
         binding.toGelsds.setOnClickListener {
             findNavController().navigate(R.id.action_inicio_to_gelsdspage)
         }
+        binding.toinducidonoinducido.setOnClickListener {
+            findNavController().navigate(R.id.action_inicio_to_inducidonoinducido)
+        }
         return binding.root
 
     }

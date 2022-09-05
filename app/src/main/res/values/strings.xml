@@ -87,4 +87,10 @@
     <string name="checksds2">Hecho</string>
     <string name="checktemed2">Hecho</string>
     <string name="checkpersa2">Hecho</string>
+    <string name="inducidonoinducido">Inducido - No Inducido</string>
+
+    <string name="idvolnoinducido">Volumen No Inducido</string>
+    <string name="idDOnoinducido">DO No Inducido</string>
+    <string name="idvolinducido">Volumen Inducido</string>
+    <string name="idDOinducido">DO Inducido</string>
 </resources>
