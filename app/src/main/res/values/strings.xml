@@ -93,4 +93,14 @@
     <string name="idDOnoinducido">DO No Inducido</string>
     <string name="idvolinducido">Volumen Inducido</string>
     <string name="idDOinducido">DO Inducido</string>
+
+    <string name="btncalcvolnoind">Vol no inducido</string>
+    <string name="btncalcvolind">Vol inducido</string>
+    <string name="btncalcDOnoind">DO no inducido</string>
+    <string name="btncalcDOind">DO inducido</string>
+    <string name="btncalcDOind">DO inducido</string>
+    <string name="resvolnoin">Resultado volumen no inducido</string>
+    <string name="resDOnoind">Resultado DO no inducido</string>
+
+
 </resources>
