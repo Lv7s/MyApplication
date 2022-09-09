@@ -98,9 +98,19 @@
     <string name="btncalcvolind">Vol inducido</string>
     <string name="btncalcDOnoind">DO no inducido</string>
     <string name="btncalcDOind">DO inducido</string>
-    <string name="btncalcDOind">DO inducido</string>
     <string name="resvolnoin">Resultado volumen no inducido</string>
     <string name="resDOnoind">Resultado DO no inducido</string>
-
+    <string name="valVolNoInd">200</string>
+    <string name="valDONoInd">0.6</string>
+    <string name="valVolInd">100</string>
+    <string name="valDOInd">1</string>
+    <string name="resvolind">Resultado volumen inducido</string>
+    <string name="resDOind">Resultado DO inducido</string>
+    <string name="resfactorDOvol">Factor</string>
+    <string name="rptavolnoind">Respuesta</string>
+    <string name="rptaDOnoind">Respuesta</string>
+    <string name="rptavolind">Respuesta</string>
+    <string name="rptaDOind">Respuesta</string>
+    <string name="rptafactorDOvol">Respuesta</string>
 
 </resources>
