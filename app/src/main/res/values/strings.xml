@@ -4,4 +4,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="toBuffer">Buffer automatico</string>
     <string name="totris">Buffer tris</string>
+    <string name="VolBuffReq">Volumen de buffer en L</string>
 </resources>
