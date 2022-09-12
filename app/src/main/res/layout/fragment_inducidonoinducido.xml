@@ -4,313 +4,281 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bufftris">
+    tools:context=".inducidonoinducido">
 
     <TextView
-        android:id="@+id/idVolReq"
+        android:id="@+id/idvolnoinducido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/idVolReq"
-        android:textSize="18sp"
+        android:text="@string/idvolnoinducido"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintHorizontal_bias="0.118"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.038" />
+        app:layout_constraintVertical_bias="0.095" />
 
     <TextView
-        android:id="@+id/idConcTris"
+        android:id="@+id/idDOnoinducido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/idConcTris"
-        android:textSize="18sp"
+        android:text="@string/idDOnoinducido"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintHorizontal_bias="0.105"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.116" />
+        app:layout_constraintVertical_bias="0.162" />
 
     <TextView
-        android:id="@+id/idConcNaCl"
+        android:id="@+id/idDOnoinducido3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/idConcNaCl"
-        android:textSize="18sp"
+        android:text="@string/idDOinducido"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintHorizontal_bias="0.098"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2" />
+        app:layout_constraintVertical_bias="0.287" />
 
     <TextView
-        android:id="@+id/idConcMgCl"
+        android:id="@+id/idvolinducido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/idConcMgCl"
-        android:textSize="18sp"
+        android:text="@string/idvolinducido"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.272" />
-
-    <TextView
-        android:id="@+id/idVolGlic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/idVolGlic"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.356" />
-
-    <TextView
-        android:id="@+id/idConcImidzl"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/idConcImidzl"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.444" />
-
-    <EditText
-        android:id="@+id/valVolReq"
-        android:layout_width="60dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.92"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
-        android:labelFor="@id/valVolReq"
-        android:text="@string/valVolReq"
-        android:autofillHints="" />
-
-    <EditText
-        android:id="@+id/valConcTris"
-        android:layout_width="60dp"
-        android:layout_height="48dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:labelFor="@id/valConcTris"
-        android:text="@string/valConcTris"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.92"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.105" />
-
-    <EditText
-        android:id="@+id/valConcNaCl"
-        android:layout_width="60dp"
-        android:layout_height="48dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:labelFor="@id/valConcNaCl"
-        android:text="@string/valConcNacl"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.92"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.187" />
-
-    <EditText
-        android:id="@+id/valConcMgCl"
-        android:layout_width="60dp"
-        android:layout_height="48dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:labelFor="@id/valConcMgCl"
-        android:text="@string/valConcMgCl"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.92"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.269" />
-
-    <EditText
-        android:id="@+id/valVolGlic"
-        android:layout_width="60dp"
-        android:layout_height="48dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:labelFor="@id/valVolGlic"
-        android:text="@string/valVolGlic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.92"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.354" />
-
-    <EditText
-        android:id="@+id/valConcImidzl"
-        android:layout_width="60dp"
-        android:layout_height="48dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:labelFor="@id/valConcImidzl"
-        android:text="@string/valConcImidzl"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.92"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44" />
+        app:layout_constraintVertical_bias="0.22" />
 
     <Button
-        android:id="@+id/btnCalcular"
+        android:id="@+id/btncalcvolnoind"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="4dp"
-        android:text="@string/btnCalcular"
+        android:text="@string/btncalcvolnoind"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.104"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55" />
+        app:layout_constraintVertical_bias="0.382" />
+
+    <Button
+        android:id="@+id/btncalcDOnoind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/idDOnoinducido"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <Button
+        android:id="@+id/btncalcvolind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btncalcvolind"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382" />
+
+    <Button
+        android:id="@+id/btncalcDOind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/idDOinducido"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <EditText
+        android:id="@+id/valVolNoInd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/valVolNoInd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <EditText
+        android:id="@+id/valDONoInd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/valDONoInd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <EditText
+        android:id="@+id/valVolInd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/valVolInd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <EditText
+        android:id="@+id/valDOInd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/valDOInd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
 
     <TextView
-        android:id="@+id/resPesoTRIS"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/resPesoTRIS"
+        android:id="@+id/resvolnoind"
+        android:layout_width="235dp"
+        android:layout_height="27dp"
+        android:text="@string/resvolnoin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.619" />
+        app:layout_constraintVertical_bias="0.599" />
 
     <TextView
-        android:id="@+id/resPesoNaCl"
+        android:id="@+id/resDOnoind"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/resPesoNaCl"
+        android:text="@string/resDOnoind"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.669" />
+        app:layout_constraintVertical_bias="0.658" />
 
     <TextView
-        android:id="@+id/resPesoMgCl"
+        android:id="@+id/resvolind"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/resPesoMgCl"
+        android:text="@string/resvolind"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.713" />
+        app:layout_constraintVertical_bias="0.719" />
 
     <TextView
-        android:id="@+id/resPesoGlic"
+        android:id="@+id/resDOind"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/resPesoGlic"
+        android:text="@string/resDOind"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.755" />
+        app:layout_constraintVertical_bias="0.772" />
 
     <TextView
-        android:id="@+id/resPesoImdzl"
+        android:id="@+id/resfactorDOvol"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/resPesoImdzl"
+        android:text="@string/resfactorDOvol"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.794" />
+        app:layout_constraintVertical_bias="0.83" />
 
     <TextView
-        android:id="@+id/rptaTRIS"
+        android:id="@+id/rptavolnoind"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/rptaTRIS"
+        android:text="@string/rptavolnoind"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.756"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.619" />
+        app:layout_constraintVertical_bias="0.595" />
 
     <TextView
-        android:id="@+id/rptaNaCl"
+        android:id="@+id/rptaDOnoind"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/rptaNaCl"
+        android:text="@string/rptaDOnoind"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.756"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.668" />
+        app:layout_constraintVertical_bias="0.658" />
 
     <TextView
-        android:id="@+id/rptaMgCl"
+        android:id="@+id/rptavolind"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/rptaMgCl"
+        android:text="@string/rptavolind"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.756"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.713" />
+        app:layout_constraintVertical_bias="0.719" />
 
     <TextView
-        android:id="@+id/rptaGlic"
+        android:id="@+id/rptaDOind"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/rptaGlic"
+        android:text="@string/rptaDOind"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.756"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.755" />
+        app:layout_constraintVertical_bias="0.772" />
 
     <TextView
-        android:id="@+id/rptaImdzl"
+        android:id="@+id/rptafactorDOvol"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/rptaImdzl"
+        android:text="@string/rptafactorDOvol"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.756"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.793" />
+        app:layout_constraintVertical_bias="0.83" />
 </androidx.constraintlayout.widget.ConstraintLayout>

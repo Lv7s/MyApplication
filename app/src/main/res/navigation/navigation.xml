@@ -13,6 +13,12 @@
         <action
             android:id="@+id/action_inicio_to_buffer"
             app:destination="@id/buffer" />
+        <action
+            android:id="@+id/action_inicio_to_gelsdspage"
+            app:destination="@id/gelsdspage" />
+        <action
+            android:id="@+id/action_inicio_to_inducidonoinducido"
+            app:destination="@id/inducidonoinducido" />
     </fragment>
     <fragment
         android:id="@+id/buffer"
@@ -20,15 +26,39 @@
         android:label="fragment_buffer"
         tools:layout="@layout/fragment_buffer" >
         <action
-            android:id="@+id/action_buffer_to_inicio"
-            app:destination="@id/inicio" />
-        <action
             android:id="@+id/action_buffer_to_bufftris"
             app:destination="@id/bufftris" />
+        <action
+            android:id="@+id/action_buffer_to_buffhepes"
+            app:destination="@id/buffhepes" />
     </fragment>
     <fragment
         android:id="@+id/bufftris"
         android:name="com.lv7s.myapplication.bufftris"
         android:label="fragment_bufftris"
         tools:layout="@layout/fragment_bufftris" />
+    <fragment
+        android:id="@+id/buffhepes"
+        android:name="com.lv7s.myapplication.buffhepes"
+        android:label="fragment_buffhepes"
+        tools:layout="@layout/fragment_buffhepes" />
+    <fragment
+        android:id="@+id/gelsdspage"
+        android:name="com.lv7s.myapplication.gelsdspage"
+        android:label="fragment_gelsdspage"
+        tools:layout="@layout/fragment_gelsdspage" >
+        <action
+            android:id="@+id/action_gelsdspage_to_gelsdspagestack"
+            app:destination="@id/gelsdspagestack" />
+    </fragment>
+    <fragment
+        android:id="@+id/gelsdspagestack"
+        android:name="com.lv7s.myapplication.gelsdspagestack"
+        android:label="fragment_gelsdspagestack"
+        tools:layout="@layout/fragment_gelsdspagestack" />
+    <fragment
+        android:id="@+id/inducidonoinducido"
+        android:name="com.lv7s.myapplication.inducidonoinducido"
+        android:label="fragment_inducidonoinducido"
+        tools:layout="@layout/fragment_inducidonoinducido" />
 </navigation>
