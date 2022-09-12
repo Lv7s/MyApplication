@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_inicio_to_inducidonoinducido"
             app:destination="@id/inducidonoinducido" />
+        <action
+            android:id="@+id/action_inicio_to_molmanual3"
+            app:destination="@id/molmanual" />
     </fragment>
     <fragment
         android:id="@+id/buffer"
@@ -61,4 +64,9 @@
         android:name="com.lv7s.myapplication.inducidonoinducido"
         android:label="fragment_inducidonoinducido"
         tools:layout="@layout/fragment_inducidonoinducido" />
+    <fragment
+        android:id="@+id/molmanual"
+        android:name="com.lv7s.myapplication.molmanual"
+        android:label="fragment_molmanual"
+        tools:layout="@layout/fragment_molmanual" />
 </navigation>

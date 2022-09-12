@@ -32,6 +32,9 @@ class Inicio : Fragment() {
         binding.toinducidonoinducido.setOnClickListener {
             findNavController().navigate(R.id.action_inicio_to_inducidonoinducido)
         }
+        binding.toMolManual.setOnClickListener {
+            findNavController().navigate(R.id.action_inicio_to_molmanual3)
+        }
         return binding.root
 
     }

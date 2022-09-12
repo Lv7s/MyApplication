@@ -113,4 +113,16 @@
     <string name="rptaDOind">Respuesta</string>
     <string name="rptafactorDOvol">Respuesta</string>
 
+    <string name="toMolManual">Molaridad Manual</string>
+
+    <string name="idPesMol">Introduce el Peso Molecular</string>
+    <string name="idVolLit">Volumen en Litros deseado</string>
+    <string name="idMolFinal">Molaridad final deseada en M</string>
+    <string name="valPesMol">58.44</string>
+    <string name="valVolLit">0.1</string>
+    <string name="valMolFinal">0.3</string>
+    <string name="btncalcgrampes">Calcular</string>
+    <string name="resgramosPesar">Gramos a pesar</string>
+    <string name="rptagramosPesar">Respuesta</string>
+
 </resources>
