@@ -115,7 +115,9 @@
         app:layout_constraintHorizontal_bias="0.865"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.084" />
+        app:layout_constraintVertical_bias="0.084"
+        android:importantForAutofill="no"
+        android:labelFor="@id/valVolNoInd"/>
 
     <EditText
         android:id="@+id/valDONoInd"
@@ -130,7 +132,8 @@
         app:layout_constraintHorizontal_bias="0.865"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.151" />
+        app:layout_constraintVertical_bias="0.151"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/valVolInd"
@@ -145,7 +148,8 @@
         app:layout_constraintHorizontal_bias="0.865"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.217" />
+        app:layout_constraintVertical_bias="0.217"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/valDOInd"
@@ -160,7 +164,8 @@
         app:layout_constraintHorizontal_bias="0.865"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.282" />
+        app:layout_constraintVertical_bias="0.282"
+        android:importantForAutofill="no" />
 
     <TextView
         android:id="@+id/resvolnoind"
