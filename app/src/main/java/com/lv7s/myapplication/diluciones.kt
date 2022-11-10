@@ -1,31 +1,24 @@
 package com.lv7s.myapplication
 
 import android.os.Bundle
+import android.text.TextUtils
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.lv7s.myapplication.databinding.FragmentDilucionesBinding
+import java.math.RoundingMode
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [diluciones.newInstance] factory method to
- * create an instance of this fragment.
- */
 class diluciones : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
-
+    var numConc1 : Float? = null
+    var numVol1 : Float? = null
+    var numConc2 : Float? = null
+    var numVol2 : Float? = null
+    private var _binding : FragmentDilucionesBinding? = null
+    private val binding get() = _binding!!
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
         }
     }
 
@@ -33,27 +26,40 @@ class diluciones : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_diluciones, container, false)
+        _binding = FragmentDilucionesBinding.inflate(inflater, container, false)
+        var respuesta = binding.rptadilucc
+        binding.btnconc1.setOnClickListener {
+            if  (TextUtils.isEmpty(binding.valVol1.text.toString())){
+                binding.valVol1.error = "Ingresa un numero"
+                binding.valVol1.requestFocus()
+                return@setOnClickListener
+            }else {
+                numVol1 = binding.valVol1.text.toString().toFloat()
+            }
+
+            if  (TextUtils.isEmpty(binding.valConc2.text.toString())){
+                binding.valConc2.error = "Ingresa un numero"
+                binding.valConc2.requestFocus()
+                return@setOnClickListener
+            }else {
+                numConc2 = binding.valConc2.text.toString().toFloat()
+            }
+
+            if  (TextUtils.isEmpty(binding.valVol2.text.toString())){
+                binding.valVol2.error = "Ingresa un numero"
+                binding.valVol2.requestFocus()
+                return@setOnClickListener
+            }else {
+                numVol2 = binding.valVol2.text.toString().toFloat()
+            }
+
+            val resultadoc1 =  numConc2!!.times(numVol2!!).div(numVol1!!).toBigDecimal().setScale(2, RoundingMode.UP).toString()
+            respuesta.setText(resultadoc1)
+        }
+        return binding.root
     }
 
     companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment diluciones.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            diluciones().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
+
     }
 }

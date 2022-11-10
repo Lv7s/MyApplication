@@ -121,7 +121,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no"
+        android:labelFor="@id/valConc1"/>
 
     <EditText
         android:id="@+id/valVol1"
