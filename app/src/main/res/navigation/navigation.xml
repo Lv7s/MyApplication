@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_inicio_to_molmanual3"
             app:destination="@id/molmanual" />
+        <action
+            android:id="@+id/action_inicio_to_diluciones"
+            app:destination="@id/diluciones" />
     </fragment>
     <fragment
         android:id="@+id/buffer"
@@ -69,4 +72,9 @@
         android:name="com.lv7s.myapplication.molmanual"
         android:label="fragment_molmanual"
         tools:layout="@layout/fragment_molmanual" />
+    <fragment
+        android:id="@+id/diluciones"
+        android:name="com.lv7s.myapplication.diluciones"
+        android:label="fragment_diluciones"
+        tools:layout="@layout/fragment_diluciones" />
 </navigation>
