@@ -49,10 +49,12 @@
 
     <EditText
         android:id="@+id/valPesMol"
-        android:layout_width="100dp"
+        android:layout_width="80dp"
         android:layout_height="48dp"
         android:ems="10"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
+        android:labelFor="@+id/valPesMol"
         android:minHeight="48dp"
         android:text="@string/valPesMol"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,15 +62,14 @@
         app:layout_constraintHorizontal_bias="0.948"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.068"
-        android:importantForAutofill="no"
-        android:labelFor="@+id/valPesMol"/>
+        app:layout_constraintVertical_bias="0.068" />
 
     <EditText
         android:id="@+id/valVolLit"
-        android:layout_width="100dp"
+        android:layout_width="80dp"
         android:layout_height="48dp"
         android:ems="10"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="@string/valVolLit"
@@ -77,14 +78,14 @@
         app:layout_constraintHorizontal_bias="0.948"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149"
-        android:importantForAutofill="no" />
+        app:layout_constraintVertical_bias="0.149" />
 
     <EditText
         android:id="@+id/valMolFinal"
-        android:layout_width="100dp"
+        android:layout_width="80dp"
         android:layout_height="48dp"
         android:ems="10"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="@string/valMolFinal"
@@ -93,8 +94,7 @@
         app:layout_constraintHorizontal_bias="0.948"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.231"
-        android:importantForAutofill="no" />
+        app:layout_constraintVertical_bias="0.241" />
 
     <Button
         android:id="@+id/btncalcgrampes"
@@ -116,7 +116,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.316"
+        app:layout_constraintHorizontal_bias="0.186"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.427" />
@@ -129,7 +129,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.715"
+        app:layout_constraintHorizontal_bias="0.798"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.427" />
