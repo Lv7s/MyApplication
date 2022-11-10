@@ -125,4 +125,19 @@
     <string name="resgramosPesar">Gramos a pesar</string>
     <string name="rptagramosPesar">Respuesta</string>
 
+    <string name="idConc1">Introduce la concentración 1</string>
+    <string name="idVol1">Introduce el volumen 1</string>
+    <string name="idConc2">Introduce la concentración 2</string>
+    <string name="idVol2">Introduce el volumen 2</string>
+    <string name="valConc1">2</string>
+    <string name="valVol1">100</string>
+    <string name="valConc2">0.005</string>
+    <string name="valVol2">300</string>
+    <string name="btnconc1">Concentracion 1</string>
+    <string name="btnvol1">Volumen 1</string>
+    <string name="btnconc2">Concentracion 2</string>
+    <string name="btnvol2">Volumen 2</string>
+    <string name="idrptadiluc">Respuesta:</string>
+    <string name="rptadilucc">Respuesta</string>
+
 </resources>
