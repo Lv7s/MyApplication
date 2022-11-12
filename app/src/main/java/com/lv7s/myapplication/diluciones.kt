@@ -55,7 +55,7 @@ class diluciones : Fragment() {
                 numVol2 = binding.valVol2.text.toString().toFloat()
             }
 
-            val resultadoc1 =  numConc2!!.times(numVol2!!).div(numVol1!!).toBigDecimal().setScale(2, RoundingMode.UP).toString()
+            val resultadoc1 =  numConc2!!.times(numVol2!!).div(numVol1!!).toBigDecimal().setScale(5, RoundingMode.UP).toString()
             respuesta.setText(resultadoc1)
         }
 
@@ -84,7 +84,7 @@ class diluciones : Fragment() {
                 numVol2 = binding.valVol2.text.toString().toFloat()
             }
 
-            val resultadoc2 =  numConc1!!.times(numVol1!!).div(numVol2!!).toBigDecimal().setScale(2, RoundingMode.UP).toString()
+            val resultadoc2 =  numConc1!!.times(numVol1!!).div(numVol2!!).toBigDecimal().setScale(5, RoundingMode.UP).toString()
             respuesta.setText(resultadoc2)
         }
 
@@ -113,7 +113,7 @@ class diluciones : Fragment() {
                 numVol2 = binding.valVol2.text.toString().toFloat()
             }
 
-            val resultadov1 =  numConc2!!.times(numVol2!!).div(numConc1!!).toBigDecimal().setScale(2, RoundingMode.UP).toString()
+            val resultadov1 =  numConc2!!.times(numVol2!!).div(numConc1!!).toBigDecimal().setScale(5, RoundingMode.UP).toString()
             respuesta.setText(resultadov1)
         }
 
@@ -142,7 +142,7 @@ class diluciones : Fragment() {
                 numConc2 = binding.valConc2.text.toString().toFloat()
             }
 
-            val resultadov2 =  numConc1!!.times(numVol1!!).div(numConc2!!).toBigDecimal().setScale(2, RoundingMode.UP).toString()
+            val resultadov2 =  numConc1!!.times(numVol1!!).div(numConc2!!).toBigDecimal().setScale(5, RoundingMode.UP).toString()
             respuesta.setText(resultadov2)
         }
 
