@@ -56,6 +56,94 @@ class diluciones : Fragment() {
             val resultadoc1 =  numConc2!!.times(numVol2!!).div(numVol1!!).toBigDecimal().setScale(2, RoundingMode.UP).toString()
             respuesta.setText(resultadoc1)
         }
+
+        binding.btnconc2.setOnClickListener {
+            if  (TextUtils.isEmpty(binding.valConc2.text.toString())){
+                binding.valConc1.error = "Ingresa un numero"
+                binding.valConc1.requestFocus()
+                return@setOnClickListener
+            }else {
+                numConc1 = binding.valConc1.text.toString().toFloat()
+            }
+
+            if  (TextUtils.isEmpty(binding.valVol1.text.toString())){
+                binding.valVol1.error = "Ingresa un numero"
+                binding.valVol1.requestFocus()
+                return@setOnClickListener
+            }else {
+                numVol1 = binding.valVol1.text.toString().toFloat()
+            }
+
+            if  (TextUtils.isEmpty(binding.valVol2.text.toString())){
+                binding.valVol2.error = "Ingresa un numero"
+                binding.valVol2.requestFocus()
+                return@setOnClickListener
+            }else {
+                numVol2 = binding.valVol2.text.toString().toFloat()
+            }
+
+            val resultadoc2 =  numConc1!!.times(numVol1!!).div(numVol2!!).toBigDecimal().setScale(2, RoundingMode.UP).toString()
+            respuesta.setText(resultadoc2)
+        }
+
+        binding.btnvol1.setOnClickListener {
+            if  (TextUtils.isEmpty(binding.valConc1.text.toString())){
+                binding.valConc1.error = "Ingresa un numero"
+                binding.valConc1.requestFocus()
+                return@setOnClickListener
+            }else {
+                numConc1 = binding.valConc1.text.toString().toFloat()
+            }
+
+            if  (TextUtils.isEmpty(binding.valConc2.text.toString())){
+                binding.valConc2.error = "Ingresa un numero"
+                binding.valConc2.requestFocus()
+                return@setOnClickListener
+            }else {
+                numConc2 = binding.valConc2.text.toString().toFloat()
+            }
+
+            if  (TextUtils.isEmpty(binding.valVol2.text.toString())){
+                binding.valVol2.error = "Ingresa un numero"
+                binding.valVol2.requestFocus()
+                return@setOnClickListener
+            }else {
+                numVol2 = binding.valVol2.text.toString().toFloat()
+            }
+
+            val resultadov1 =  numConc2!!.times(numVol2!!).div(numConc1!!).toBigDecimal().setScale(2, RoundingMode.UP).toString()
+            respuesta.setText(resultadov1)
+        }
+
+        binding.btnvol2.setOnClickListener {
+            if  (TextUtils.isEmpty(binding.valConc2.text.toString())){
+                binding.valConc1.error = "Ingresa un numero"
+                binding.valConc1.requestFocus()
+                return@setOnClickListener
+            }else {
+                numConc1 = binding.valConc1.text.toString().toFloat()
+            }
+
+            if  (TextUtils.isEmpty(binding.valVol1.text.toString())){
+                binding.valVol1.error = "Ingresa un numero"
+                binding.valVol1.requestFocus()
+                return@setOnClickListener
+            }else {
+                numVol1 = binding.valVol1.text.toString().toFloat()
+            }
+
+            if  (TextUtils.isEmpty(binding.valConc2.text.toString())){
+                binding.valConc2.error = "Ingresa un numero"
+                binding.valConc2.requestFocus()
+                return@setOnClickListener
+            }else {
+                numConc2 = binding.valConc2.text.toString().toFloat()
+            }
+
+            val resultadov2 =  numConc1!!.times(numVol1!!).div(numConc2!!).toBigDecimal().setScale(2, RoundingMode.UP).toString()
+            respuesta.setText(resultadov2)
+        }
+
         return binding.root
     }
 
