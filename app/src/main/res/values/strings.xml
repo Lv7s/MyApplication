@@ -114,6 +114,8 @@
     <string name="rptafactorDOvol">Respuesta</string>
 
     <string name="toMolManual">Molaridad Manual</string>
+    <string name="toDiluc">Diluciones</string>
+
 
     <string name="idPesMol">Introduce el Peso Molecular</string>
     <string name="idVolLit">Volumen en Litros deseado</string>

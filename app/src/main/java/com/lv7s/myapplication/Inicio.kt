@@ -35,6 +35,9 @@ class Inicio : Fragment() {
         binding.toMolManual.setOnClickListener {
             findNavController().navigate(R.id.action_inicio_to_molmanual3)
         }
+        binding.toDiluc.setOnClickListener {
+            findNavController().navigate(R.id.action_inicio_to_diluciones)
+        }
         return binding.root
 
     }
