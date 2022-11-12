@@ -27,7 +27,9 @@ class diluciones : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         _binding = FragmentDilucionesBinding.inflate(inflater, container, false)
+
         var respuesta = binding.rptadilucc
+
         binding.btnconc1.setOnClickListener {
             if  (TextUtils.isEmpty(binding.valVol1.text.toString())){
                 binding.valVol1.error = "Ingresa un numero"
