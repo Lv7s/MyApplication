@@ -54,12 +54,11 @@
     <string name="rptaImdzl2">Respuesta</string>
 
     <string name="toGelsds">Gel SDS PAGE</string>
-    <string name="idagua">Agua: 7,58 mL</string>
-    <string name="idagua2">Agua: 195 uL</string>
+    <string name="idagua">Agua: 7,78 mL</string>
     <string name="idacrilamida">Acrilamida: 7.82 mL</string>
     <string name="idtris882M">Tris pH 8.8 2M: 3.67 mL</string>
     <string name="idsds">SDS 10%: 195 uL</string>
-    <string name="idtemed">TEMED: 22.25 mL</string>
+    <string name="idtemed">TEMED: 22.3 uL</string>
     <string name="idpersa">PERSA 10%: 120 uL</string>
     <string name="idtituloresolucion">Gel de resolución (4 geles)</string>
     <string name="checkagua">Hecho</string>
@@ -72,13 +71,12 @@
     <string name="tosdsstacking">Hacia gel de stacking</string>
 
     <string name="toGelsds2">Gel SDS PAGE</string>
-    <string name="idaguas2">Agua: 4,09 mL</string>
-    <string name="idagua22">Agua: 53.5 uL</string>
-    <string name="idacrilamida2">Acrilamida: 800 uL</string>
-    <string name="idtris882M2">Tris pH 6.8 2M: 335 uL</string>
-    <string name="idsds2">SDS 10%: 53.5 uL</string>
-    <string name="idtemed2">TEMED: 8.9 uL</string>
-    <string name="idpersa2">PERSA 10%: 44.5 uL</string>
+    <string name="idaguas2">Agua: 5,01 mL</string>
+    <string name="idacrilamida2">Acrilamida: 900 uL</string>
+    <string name="idtris882M2">Tris pH 6.8 2M: 376.88 uL</string>
+    <string name="idsds2">SDS 10%: 60.19 uL</string>
+    <string name="idtemed2">TEMED: 10.01 uL</string>
+    <string name="idpersa2">PERSA 10%: 50.06 uL</string>
     <string name="idtituloresolucion2">Gel de stacking (4 geles)</string>
     <string name="checkagua22">Hecho</string>
     <string name="checkaguas2">Hecho</string>
