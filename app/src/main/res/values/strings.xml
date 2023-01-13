@@ -60,7 +60,7 @@
     <string name="idsds">SDS 10%: 195 uL</string>
     <string name="idtemed">TEMED: 22.3 uL</string>
     <string name="idpersa">PERSA 10%: 120 uL</string>
-    <string name="idtituloresolucion">Gel de resolución (4 geles)</string>
+    <string name="idtituloresolucion">Gel de resolución (4 geles, 12%)</string>
     <string name="checkagua">Hecho</string>
     <string name="checkagua2">Hecho</string>
     <string name="checkacrilamida">Hecho</string>
@@ -77,7 +77,7 @@
     <string name="idsds2">SDS 10%: 60.19 uL</string>
     <string name="idtemed2">TEMED: 10.01 uL</string>
     <string name="idpersa2">PERSA 10%: 50.06 uL</string>
-    <string name="idtituloresolucion2">Gel de stacking (4 geles)</string>
+    <string name="idtituloresolucion2">Gel de stacking (4 geles, 12%)</string>
     <string name="checkagua22">Hecho</string>
     <string name="checkaguas2">Hecho</string>
     <string name="checkacrilamida2">Hecho</string>
